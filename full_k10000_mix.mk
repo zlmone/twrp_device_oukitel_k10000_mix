@@ -18,14 +18,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from shamrock device
-$(call inherit-product, device/oukitel/k10000_mix/device.mk)
+$(call inherit-product, device/OUKITEL/K10000_Mix/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := k10000_mix
-PRODUCT_NAME := full_k10000_mix
-PRODUCT_BRAND := Oukitel
-PRODUCT_MODEL := oukitel_k10000_mix
-PRODUCT_MANUFACTURER := k10000_mix
+PRODUCT_DEVICE := K10000_Mix
+PRODUCT_NAME := full_K10000_Mix
+PRODUCT_BRAND := OUKITEL
+PRODUCT_MODEL := K10000 Mix
+PRODUCT_MANUFACTURER := OUKITEL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE="k10000_mix"
+    PRODUCT_DEVICE="K10000_Mix"

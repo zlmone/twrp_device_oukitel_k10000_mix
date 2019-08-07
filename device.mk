@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/oukitel/k10000_mix
+LOCAL_PATH := device/OUKITEL/K10000_Mix
 
 # Init scripts
 #PRODUCT_PACKAGES += \

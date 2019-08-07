@@ -20,7 +20,7 @@
 # definition file).
 #
 
-LOCAL_PATH := device/oukitel/k10000_mix
+LOCAL_PATH := device/OUKITEL/K10000_Mix
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := mt6737m
@@ -68,7 +68,7 @@ BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x03f88000 --tags_offset 0x0df88000
-TARGET_PREBUILT_KERNEL := device/oukitel/k10000_mix/prebuilts/kernel
+TARGET_PREBUILT_KERNEL := device/OUKITEL/K10000_Mix/prebuilts/kernel
 
 # Mediatek Flags
 BOARD_HAS_MTK_HARDWARE := true

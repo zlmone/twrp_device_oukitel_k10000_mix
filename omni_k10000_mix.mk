@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/oukitel/k10000_mix
+LOCAL_PATH := device/OUKITEL/K10000_Mix
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-$(call inherit-product, device/oukitel/k10000_mix/full_k10000_mix.mk)
+$(call inherit-product, device/OUKITEL/K10000_Mix/full_K10000_Mix.mk)
 
-PRODUCT_NAME := omni_k10000_mix
+PRODUCT_NAME := omni_K10000_Mix
